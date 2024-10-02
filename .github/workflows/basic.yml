@@ -3,10 +3,10 @@ name: Say hello
 on:
   workflow_dispatch:
 
-  jobs:
-    greet:
-        name: Say hello to user
-        runs-on: ubuntu-latest
-        steps:
-          - name: Run echo
-            run: echo "Hello."
+jobs:
+  greet:
+      name: Say hello to user
+      runs-on: ubuntu-latest
+      steps:
+        - name: Run echo
+          run: echo "Hello."
